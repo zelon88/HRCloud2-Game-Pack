@@ -4,7 +4,7 @@ An official pack of cool browser games ported to the [HRCloud2 self-hosted Cloud
 
 ## HRCloud2 App Launcher
 
-![HRC2 App Launcher](https://github.com/zelon88/HRCloud2-Game-Pack/blob/master/Screenshots/HRC2-App-Launcher-1.png =200x)
+![HRC2 App Launcher](https://github.com/zelon88/HRCloud2-Game-Pack/blob/master/Screenshots/HRC2-App-Launcher-2.png)
 
 ## This pack currently includes...
 
