@@ -1,0 +1,147 @@
+/************* COLORS and font TO USE
+28263D dark
+5246BD purple
+E47A68 orange
+FAC3BE beige
+F6F7E1 white yellow
+CAA6EA light purple
+font-family: 'Quicksand';
+***************************/
+
+*
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #28263D;
+}
+
+/*THE WELCOME SCREEN*/
+.welcome {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: 'Quicksand';
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #28263D;
+  color: #FAC3BE;
+  z-index: 3;
+}
+
+.welcome h1 {
+  font-size: 100px;
+}
+.welcome .start {
+  color: #FAC3BE;
+  text-shadow: none;
+  letter-spacing: 6px;
+}
+
+.welcome .ul{
+  text-decoration: underline;
+}
+
+.welcome .blink {
+  font-size: 28px;
+  animation: blink 1s infinite;
+}
+
+
+
+
+@keyframes blink {
+  0% {
+	  color: #FAC3BE;
+    text-shadow: 1px 1px #E47A68;
+  }
+  50% {
+  	color: #E47A68;
+    text-shadow: 1px 1px #FAC3BE;
+  }
+  100% {
+    color: #FAC3BE;
+    text-shadow: 1px 1px #E47A68;
+  }
+}
+
+/* THE CANVAS*/
+#wrapper {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  display: block;
+  margin-top: 90px;
+  width: 600px;
+  height: 400px;
+  border: 2px solid #ff0000;
+  cursor:ns-resize;
+  background-color: #28263D;
+  border: none;
+}
+
+canvas.direction {
+ cursor:ew-resize;
+}
+
+/* The timer score level */
+.info {
+  font-family: 'Quicksand';
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  width: 600px;
+  height: 50px;
+  background-color: #28263D;
+  color: #F6F7E1;
+}
+
+#time {
+  text-align: center;
+  width: 30%
+}
+#cleared {
+  text-align: center;
+  width: 30%
+}
+#level {
+  text-align: center;
+  width: 30%
+}
+
+/*The game over screen*/
+.center-gameover {
+  position: absolute;
+  left: 50%;
+  top:0;
+  z-index: 98;
+}
+
+.gameover {
+  position: relative;
+  left: -50%;
+  top: -50%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('source.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
