@@ -1,8 +1,12 @@
 # HRCloud2-Game-Pack
 
-An official pack of cool browser games ported to the HRCloud2 self-hosted Cloud platform. 
+An official pack of cool browser games ported to the [HRCloud2 self-hosted Cloud platform](https://github.com/zelon88/HRCloud2).
 
-This pack currently includes...
+## HRCloud2 App Launcher
+
+![HRC2 App Launcher](https://github.com/zelon88/HRCloud2-Game-Pack/blob/master/Screenshots/HRC2-App-Launcher-1.png)
+
+## This pack currently includes...
 
 1. 3dCity  by [lo-th](https://github.com/lo-th/3d.cityfs) 
 
