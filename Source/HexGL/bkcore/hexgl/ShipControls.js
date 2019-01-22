@@ -539,7 +539,6 @@ bkcore.hexgl.ShipControls.prototype.update = function(dt)
 
 	//Update listener position
 	bkcore.Audio.setListenerPos(this.movement);
-	bkcore.Audio.setListenerVelocity(this.currentVelocity);
 };
 
 bkcore.hexgl.ShipControls.prototype.teleport = function(pos, quat)
