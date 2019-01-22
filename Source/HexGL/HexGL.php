@@ -4,7 +4,7 @@
 HRCLOUD2-PLUGIN-START
 App Name: HexGL
 App Website: https://github.com/BKcore/HexGL
-App Version: v1.0 (12-4-2018 00:00)
+App Version: v1.1 (1-21-2019 00:00)
 App License: GPLv3
 App Author: BKCore
 App Genre: Games
