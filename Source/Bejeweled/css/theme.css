@@ -1,0 +1,111 @@
+/*****************************************
+			Class Styles
+*****************************************/
+
+.blue {
+	background-color: #0000FF;
+}
+
+.green {
+	background-color: #00FF00;
+}
+
+.orange {
+	background-color: #FF8000;
+}
+
+.purple {
+	background-color: #FF00FF;
+}
+
+.red {
+	background-color: #FF0000;
+}
+
+.white {
+	background-color: #FFFFFF;
+}
+
+.yellow {
+	background-color: #FFFF00;
+}
+
+.selected { border: 5px solid #000000; }
+
+/*****************************************
+			Main Content Styles
+*****************************************/
+
+html, body { min-height: 100%; }
+
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.content { 
+	height: 100%;
+}
+
+.game-board {
+	width: 320px;
+	height: 320px;
+	background-color: #eeeeee;
+	overflow: hidden;
+	position: relative;
+	margin: 50px auto;
+}
+
+.game-board li {
+	list-style: none;
+	margin: 0px auto;
+}
+
+.game-board .column {
+	background-color: #dddddd;
+	position: relative;
+	float: left;
+	width: 12.5%;
+	height: 100%;
+	padding: 5px;
+	display: inline;
+	margin: 0px;
+}
+
+.jewel-wrap {
+	height: 12.5%;
+	width: 100%;
+	padding: 5px 0 5px 0;
+	background-color: #cccccc;
+}
+
+.jewel {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	z-index: 100;
+}
+
+/*****************************************
+			Media Queries
+*****************************************/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.game-board {
+		height: 500px;
+		width: 500px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
