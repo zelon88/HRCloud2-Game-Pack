@@ -32,3 +32,11 @@ An official pack of cool browser games ported to the [HRCloud2 self-hosted Cloud
 
 ![Wolf3D](https://github.com/zelon88/HRCloud2-Game-Pack/blob/master/Screenshots/Wolf3D-1.png)
 
+7. Pacman-Canvas
+
+8. Clumsy Bird
+
+9. Bejeweled
+
+10. Hextris
+
