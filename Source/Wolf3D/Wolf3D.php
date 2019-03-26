@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <?php
+$noStyles = 1;
 /*//
 HRCLOUD2-PLUGIN-START
 App Name: Wolf3D
 App Website: https://github.com/jseidelin/wolf3d
-App Version: v1.0 (12-5-2018 00:00)
+App Version: v1.1 (3-25-2019 00:00)
 App License: GPLv3
 App Author: jseidelin
 App Genre: Games
