@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <?php
+$noStyles = 1;
 /*//
 HRCLOUD2-PLUGIN-START
 App Name: ClumsyBird
 App Website: https://github.com/ellisonleao/clumsy-bird
-App Version: v1.0 (2-14-2019 00:00)
+App Version: v1.1 (3-25-2019 00:00)
 App License: GPLv3
 App Author: ellisonaleo
 App Genre: Games
