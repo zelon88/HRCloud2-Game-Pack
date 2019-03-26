@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <?php
+$noStyles = 1;
 /*//
 HRCLOUD2-PLUGIN-START
 App Name: Mezzball
 App Website: https://github.com/hughsk/ludum-dare-27
-App Version: v1.0 (12-5-2018 00:00)
+App Version: v1.1 (3-25-2019 00:00)
 App License: GPLv3
 App Author: hughsk
 App Genre: Games
