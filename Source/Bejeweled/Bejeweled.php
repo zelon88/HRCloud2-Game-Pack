@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <?php
+$noStyles = 1;
 /*//
 HRCLOUD2-PLUGIN-START
 App Name: Bejeweled
 App Website: https://github.com/pianoBrad/html5-bejeweled
 App Update URL: https://github.com/zelon88/HRCloud2-Game-Pack/raw/master/Bejeweled.zip
-App Version: v1.0 (2-14-2019 00:00)
+App Version: v1.1 (3-25-2019 00:00)
 App License: GPLv3
 App Author: pianoBrad
 App Genre: Games
