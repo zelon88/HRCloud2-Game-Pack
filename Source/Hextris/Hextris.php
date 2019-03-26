@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <?php
+$noStyles = 1;
 /*//
 HRCLOUD2-PLUGIN-START
 App Name: Hextris
 App Website: https://github.com/Hextris/hextris
-App Version: v1.0 (2-14-2019 00:00)
+App Version: v1.1 (3-25-2019 00:00)
 App License: GPLv3
 App Author: @lengstrom, @garrettdreyfus, @nmoroze, @themichaelyang
 App Genre: Games
