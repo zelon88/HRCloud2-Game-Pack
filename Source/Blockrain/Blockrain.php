@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <?php
+$noStyles = 1;
 /*//
 HRCLOUD2-PLUGIN-START
 App Name: Blockrain
 App Website: https://github.com/Aerolab/blockrain.js
-App Version: v1.0 (12-4-2018 00:00)
+App Version: v1.1 (3-25-2018 00:00)
 App License: GPLv3
 App Author: Aerolab
 App Genre: Games
